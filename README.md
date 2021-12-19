@@ -11,7 +11,7 @@ Summary: Simple access to Google Scholar authors and citations
 
 Development: https://github.com/scholarly-python-package/scholarly
 
-Documentation: https://github.com/scholarly-python-package/scholarly
+Documentation: https://scholarly.readthedocs.io/
 
 Current build status
 ====================
