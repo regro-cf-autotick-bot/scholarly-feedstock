@@ -44,7 +44,7 @@ about:
   license_family: OTHER
   license_file: LICENSE.txt
   summary: "Simple access to Google Scholar authors and citations"
-  doc_url: https://github.com/scholarly-python-package/scholarly
+  doc_url: https://scholarly.readthedocs.io/
   dev_url: https://github.com/scholarly-python-package/scholarly
 
 extra:
