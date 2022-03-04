@@ -1,5 +1,5 @@
 {% set name = "scholarly" %}
-{% set version = "1.5.1" %}
+{% set version = "1.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c322e23321fcc0491da62b9ccbfccc2b76780b94487fc8e61a1a429a058e2cde
+  sha256: 57e48926cfb27d759da611bab341c63f3422eae046b7adf3a122e873fd2f291e
 
 build:
   number: 0
@@ -39,11 +39,11 @@ test:
     - scholarly
 
 about:
-  home: "https://github.com/scholarly-python-package/scholarly"
+  home: https://github.com/scholarly-python-package/scholarly
   license: Unlicense
   license_family: OTHER
   license_file: LICENSE.txt
-  summary: "Simple access to Google Scholar authors and citations"
+  summary: Simple access to Google Scholar authors and citations
   doc_url: https://scholarly.readthedocs.io/
   dev_url: https://github.com/scholarly-python-package/scholarly
 
