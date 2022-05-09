@@ -1,5 +1,5 @@
 {% set name = "scholarly" %}
-{% set version = "1.6.0" %}
+{% set version = "1.6.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 57e48926cfb27d759da611bab341c63f3422eae046b7adf3a122e873fd2f291e
+  sha256: ae3695adf14d07e53335679418005cf261b29acf09cdc23c7eb4235ed4129789
 
 build:
   number: 0
