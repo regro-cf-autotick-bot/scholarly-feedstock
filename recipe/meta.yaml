@@ -26,6 +26,7 @@ requirements:
     - deprecated
     - fake-useragent
     - free-proxy
+    - httpx
     - python >=3.6
     - python-dotenv
     - PySocks
