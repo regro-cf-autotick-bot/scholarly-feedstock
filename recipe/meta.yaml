@@ -24,7 +24,7 @@ requirements:
     - beautifulsoup4
     - bibtexparser
     - deprecated
-    - fake-useragent<1.1
+    - fake-useragent<1.0
     - free-proxy
     - httpx
     - python >=3.6
