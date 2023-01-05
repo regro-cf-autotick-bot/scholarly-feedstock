@@ -26,6 +26,7 @@ requirements:
     - deprecated
     - fake-useragent
     - free-proxy
+    - httpx
     - python >=3.6
     - python-dotenv
     - PySocks
@@ -33,6 +34,7 @@ requirements:
     - selenium
     - sphinx_rtd_theme
     - typing_extensions
+    - urllib3
 
 test:
   imports:
