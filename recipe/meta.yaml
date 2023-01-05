@@ -1,4 +1,4 @@
-I'm{% set name = "scholarly" %}
+{% set name = "scholarly" %}
 {% set version = "1.7.10a0" %}
 
 package:
