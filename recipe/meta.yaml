@@ -1,4 +1,4 @@
-{% set name = "scholarly" %}
+I'm{% set name = "scholarly" %}
 {% set version = "1.7.10a0" %}
 
 package:
@@ -24,7 +24,7 @@ requirements:
     - beautifulsoup4
     - bibtexparser
     - deprecated
-    - fake-useragent<1.0
+    - fake-useragent
     - free-proxy
     - httpx
     - python >=3.6
