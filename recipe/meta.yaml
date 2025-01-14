@@ -6,18 +6,18 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 2c983dd44d9d9398a6f2605102ae6e5586023b41ebbaec1461917ee48eb153f0
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python {{ python_min }}
 
   run:
     - arrow
@@ -27,7 +27,7 @@ requirements:
     - fake-useragent
     - free-proxy
     - httpx
-    - python >=3.6
+    - python >={{ python_min }}
     - python-dotenv
     - PySocks
     - requests
@@ -37,6 +37,8 @@ requirements:
     - urllib3
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - scholarly
 
